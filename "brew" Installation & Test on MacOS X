@@ -1,7 +1,7 @@
-To install graphviz, paste "/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"" 
-in a macOS Terminal or Linux shell prompt and press return key. Depending on specific connection to the Interet, it may fail 
-several times to connect to raw.githubusercontent.com port 443: Connection refused. If so, please be patient and try it again 
-and again until working well.
+# To install graphviz, paste "/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"" 
+# in a macOS Terminal or Linux shell prompt and press return key. Depending on specific connection to the Interet, it may fail 
+# several times to connect to raw.githubusercontent.com port 443: Connection refused. If so, please be patient and try it again 
+# and again until working well.
  
 (base) localhost:~ (MyName)$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)" 
 Password: 
