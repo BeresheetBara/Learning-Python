@@ -1,0 +1,68 @@
+# To install graphviz, 
+paste </bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"> in a macOS Terminal or Linux shell prompt and press return key. Depending on specific connection to the Interet, it may fail several times to connect to raw.githubusercontent.com port 443: Connection refused. If so, please be patient and try it again and again until working well.
+ 
+(base) localhost:~ situqing$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)" 
+Password: 
+==> You are using macOS 10.11. 
+==> We (and Apple) do not provide support for this old version. 
+This installation may not succeed. 
+After installation, you will encounter build failures with some formulae. 
+Please create pull requests instead of asking for help on Homebrew\'s GitHub, 
+Discourse, Twitter or IRC. You are responsible for resolving any issues you 
+experience while you are running this old version. 
+==> This script will install: 
+/usr/local/bin/brew 
+/usr/local/share/doc/homebrew 
+/usr/local/share/man/man1/brew.1 
+/usr/local/share/zsh/site-functions/_brew 
+/usr/local/etc/bash_completion.d/brew 
+/usr/local/Homebrew 
+==> Downloading and installing Homebrew... 
+HEAD is now at 570edcc Merge pull request #9226 from Homebrew/dependabot/bundler/Library/Homebrew/tapioca-0.4.9 
+==> Tapping homebrew/core 
+Cloning into '/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core'... 
+remote: Enumerating objects: 91, done. 
+remote: Counting objects: 100% (91/91), done. 
+remote: Compressing objects: 100% (64/64), done. 
+remote: Total 841718 (delta 55), reused 50 (delta 27), pack-reused 841627 
+Receiving objects: 100% (841718/841718), 329.42 MiB | 2.81 MiB/s, done. 
+Resolving deltas:   1% (10522/567065) 
+Resolving deltas: 100% (567065/567065), done. 
+ 
+Checking out files: 100% (5619/5619), done. 
+Tapped 2 commands and 5358 formulae (5,642 files, 362MB). 
+Already up-to-date. 
+==> Installation successful! 
+==> Homebrew has enabled anonymous aggregate formulae and cask analytics. 
+Read the analytics documentation (and how to opt-out) here: 
+  https://docs.brew.sh/Analytics 
+No analytics data has been sent yet (or will be during this `install` run). 
+==> Homebrew is run entirely by unpaid volunteers. Please consider donating: 
+  https://github.com/Homebrew/brew#donations 
+
+# To test if the newly installed brew works, 
+==> Next steps: 
+- Run `brew help` to get started 
+- Further documentation:  
+    https://docs.brew.sh 
+(base) localhost:~ (MyName)$ brew help 
+Example usage: 
+  brew search [TEXT|/REGEX/] 
+  brew info [FORMULA...] 
+  brew install FORMULA... 
+  brew update 
+  brew upgrade [FORMULA...] 
+  brew uninstall FORMULA... 
+  brew list [FORMULA...] 
+Troubleshooting: 
+  brew config 
+  brew doctor 
+  brew install --verbose --debug FORMULA 
+Contributing: 
+  brew create [URL [--no-fetch]] 
+  brew edit [FORMULA...] 
+Further help: 
+  brew commands 
+  brew help [COMMAND] 
+  man brew 
+  https://docs.brew.sh 
